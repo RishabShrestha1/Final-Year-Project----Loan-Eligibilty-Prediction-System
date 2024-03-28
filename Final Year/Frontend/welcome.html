@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        /* Add your cool design styles here */
+        body {
+            background-image:url(/images/Loans-1-1024x666\ \(1\).png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-top: 100px;
+            animation: pulse 2s infinite;
+        }
+        
+        .button {
+            border: none;
+            color: rgb(144, 135, 135);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button-text {
+            margin-top: 10px;
+            color: rgb(35, 34, 34);
+            font-size: 30px;
+        }
+        
+        .button:hover {
+            animation: expand-rotate 0.5s forwards;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            80% {
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes expand-rotate {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2) rotateY(180deg);
+            }
+            100% {
+                transform: scale(1.1) rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Loan Eligibility Prediction!</h1>
+    <div class="image_button">
+    <a href="./about_model.html">
+        <img src="../images/Gold_coin_icon.png" width="200" alt="" class="button" title="Press to Enter">
+    </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Gradio App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+        .image-container {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        body {
+            background: linear-gradient(to bottom left, #9900ff73, #2da4db9a);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Model</h1>
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <span style="border: 2px solid #000; padding: 5px; background-color: #f2f2f2; font-weight: bold;">
+                Accuracy for Classification: 86.70%
+            </span>
+            <span style="margin-left: 10px; margin-right: 10px;"></span>
+            <span style="border: 2px solid #000; padding: 5px; background-color: #f2f2f2; font-weight: bold;">
+                Accuracy for Loan Amount: 82.027%
+            </span>
+        </div>
+        <br>
+        <br>
+        <p><b>The confusion matrix for the model's classification is as follows:</b></p>
+        <div class="image-container">
+            <img src="../images/Confusion_Matrix_for_Random_Forest_Classification.png" class="img-fluid" alt="Confusion Matrix">
+        </div>
+        <p><b>The Accuracy graph of model is as follows:</b></p>
+        <div class="image-container">
+            <img src="../images/actual_vs_predicted_for_loan_amount.png" class="img-fluid" alt="Graph">
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <button type="button" class="btn btn-primary" style="align-self: center; font-size: 20px; width: 200px;">
+                <a href="./frontend.html" style="color: white;">To the App</a>
+            </button>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

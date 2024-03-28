@@ -1,0 +1,4 @@
+Number of dependents,Education,Self Employed,Annual Income,Loan Term,CIBIL Score,Residential Assets Value,Commercial Assets Value,Luxury Assets Value,Bank Asset Value,Please Press Flag If error,flag,username,timestamp
+0,Graduate,Yes,100000,3,300,0,0,0,0,"{""label"":""Loan is Rejected."",""confidences"":null}",,,2024-03-09 14:02:15.695027
+0,Graduate,Yes,100000,3,300,0,0,0,0,"{""label"":""Loan is Rejected."",""confidences"":null}",,,2024-03-10 21:41:26.748999
+1,Not Graduate,No,80000,6,400,100000,50000,0,50000,"{""label"":null,""confidences"":null}",,,2024-03-15 09:56:55.919276

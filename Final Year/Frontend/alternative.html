@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Webpage</title>
+    <style>
+        /* Add your custom styles here */
+        .bank-container {
+            /* Styling for the bank container */
+            text-align: center;
+        }
+        
+        .popup {
+            /* Styling for the popup */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+        
+        .popup.show {
+            display: block;
+        }
+        
+        .popup-content {
+            /* Styling for the popup content */
+        }
+        
+        .bank-logo {
+            /* Styling for the bank logo */
+        }
+        
+        .bank-menu {
+            /* Styling for the bank menu */
+        }
+        
+        .bank-menu-item {
+            /* Styling for the bank menu items */
+        }
+        
+        .bank-form {
+            /* Styling for the bank form */
+            margin: 20px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .bank-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .bank-form input[type="number"],
+        .bank-form input[type="radio"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .bank-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .bank-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="bank-container">
+        <div class="bank-logo">
+            <!-- Add your bank logo here -->
+        </div>
+        
+        <div class="bank-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+        
+        <div class="bank-form">
+            <form>
+                <label for="dependents">Number of dependents:</label>
+                <input type="number" id="dependents" name="dependents" placeholder="Enter number of dependents" required>
+                
+                <label for="education">Education:</label>
+                <input type="radio" id="graduate" name="education" value="graduate" checked>
+                <label for="graduate">Graduate</label>
+                <input type="radio" id="not-graduate" name="education" value="not-graduate">
+                <label for="not-graduate">Not Graduate</label>
+                
+                <label for="self-employed">Self Employed:</label>
+                <input type="radio" id="yes" name="self-employed" value="yes" checked>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="self-employed" value="no">
+                <label for="no">No</label>
+                
+                <label for="annual-income">Annual Income:</label>
+                <input type="number" id="annual-income" name="annual-income" placeholder="Enter annual income" required>
+                
+                <label for="loan-term">Loan Term:</label>
+                <input type="number" id="loan-term" name="loan-term" placeholder="Enter loan term" required>
+                
+                <label for="cibil-score">CIBIL Score:</label>
+                <input type="number" id="cibil-score" name="cibil-score" placeholder="Enter CIBIL score" required>
+                
+                <label for="residential-assets">Residential Assets Value:</label>
+                <input type="number" id="residential-assets" name="residential-assets" placeholder="Enter residential assets value">
+                
+                <label for="commercial-assets">Commercial Assets Value:</label>
+                <input type="number" id="commercial-assets" name="commercial-assets" placeholder="Enter commercial assets value">
+                
+                <label for="luxury-assets">Luxury Assets Value:</label>
+                <input type="number" id="luxury-assets" name="luxury-assets" placeholder="Enter luxury assets value">
+                
+                <label for="bank-assets">Bank Asset Value:</label>
+                <input type="number" id="bank-assets" name="bank-assets" placeholder="Enter bank assets value">
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="popup">
+        <div class="popup-content">
+            <!-- Add your popup content here -->
+        </div>
+    </div>
+    
+    <script>
+        // Add your JavaScript code here to handle the popup and form submission
+    </script>
+</body>
+</html>
